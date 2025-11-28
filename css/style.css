@@ -1,0 +1,193 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fff;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to right, #ff4f9a, #ffcbe9);
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #b54879;
+    font-size: 32px;
+}
+
+nav {
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #b54879;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    width: 80%;
+    margin: 40px auto;
+    background: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    border: 1px solid #f3bfd3;
+}
+
+h2 {
+    color: #b54879;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #f7d7e8;
+    margin-top: 50px;
+}
+
+.logo-centre {
+    display: block;
+    /* transforme l'image en bloc pour appliquer les marges */
+    margin: 0 auto;
+    /* centre horizontalement l'image */
+    width: 200px;
+    /* taille de l'image, à ajuster */
+    height: auto;
+    /* garde les proportions */
+}
+
+footer {
+    margin-top: 50px;
+    padding: 25px;
+    text-align: center;
+    background: #ffe6f2;
+    border-top: 2px solid #ffb3d6;
+}
+
+footer p {
+    margin: 8px 0;
+    color: #444;
+    font-size: 15px;
+}
+
+footer h3 {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: #ff4f9a;
+}
+
+.reseaux {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 12px;
+}
+
+.reseaux a i {
+    font-size: 28px;
+    color: #ff4f9a;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.reseaux a i:hover {
+    transform: scale(1.2);
+    color: #ff007f;
+}
+
+.copy {
+    font-size: 13px;
+    color: #777;
+}
+
+
+.cv-btn {
+    text-align: center;
+    /* centre le bouton sur la page */
+    margin: 30px 0;
+    /* espace au-dessus et en dessous */
+}
+
+.cv-btn a {
+    display: inline-block;
+    /* permet de donner padding et bordure */
+    background: linear-gradient(90deg, #ff4f9a, #ffc0cb);
+    /* dégradé rose foncé → rose clair */
+    padding: 12px 30px;
+    /* espace à l'intérieur du bouton */
+    border-radius: 30px;
+    /* bords arrondis */
+    color: white;
+    /* texte blanc */
+    font-weight: bold;
+    /* texte en gras */
+    text-decoration: none;
+    /* pas de soulignement */
+    font-size: 16px;
+    /* taille de texte lisible */
+    transition: 0.3s;
+    /* transition douce pour le hover */
+}
+
+.cv-btn a:hover {
+    background: linear-gradient(90deg, #ff007f, #ff99b3);
+    /* changement léger de couleur au survol */
+    transform: translateY(-2px);
+    /* effet “lift” quand on passe dessus */
+}
+
+
+#cv-section {
+    max-width: 800px;
+    /* largeur limitée */
+    margin: 40px auto;
+    /* centrer sur la page */
+    background: #fff0f6;
+    /* fond rose très clair */
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    /* ombre légère */
+}
+
+#cv-section h2 {
+    text-align: center;
+    color: #ff4f9a;
+    /* titre rose foncé */
+    margin-bottom: 20px;
+}
+
+#cv-section p {
+    color: #333;
+    /* texte gris foncé */
+    line-height: 1.6;
+}
+
+.projets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.projets img {
+    transition: transform 0.6s ease;
+    /* transition douce pour le mouvement */
+}
+
+/* Au survol */
+.projets:hover img {
+    transform: scale(1.2) rotate(3deg);
+    /* zoom légèrement + petite rotation */
+    cursor: pointer;
+    /* change le curseur pour montrer que c’est interactif */
+}
